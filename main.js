@@ -50,39 +50,18 @@ var students = [{
 // };
 
 // #3.
-for (var i = 0; i < students.length; i++) {
-	//if students[i].city === 'Boulder'{
-		console.log(students[i].name + ' is from ' + students[i].city);
-		// };
-	// else (console.log('not from boulder')
-	};
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// SOLS:
-// 4.
-// function olderThan25(arr) {
-
-//     // loop thru array objects
-//     arr.map(function(obj){
-
-//         // if object.age > 25 --> print obj.name + " is older than 25"
-//         if (obj.age > 25) {
-
-//             console.log( obj.name + " is older than 25" );
-//         }
-//     })
+// for (var i = 0; i < students.length; i++) {
+// 	if ( students[i].city === 'Boulder'){
+// 		console.log(students[i].name + ' is from ' + students[i].city);
+// 	// else (console.log('not from boulder')
+// 	}
 // }
+
+
+// #4.
+for (var i = 0; i < students.length; i++) {
+	if ( students[i].age < 25 ) {
+		console.log(students[i].name + ' is older than 25')
+	}
+	// else (console.log('not from boulder')
+}
